@@ -3,7 +3,7 @@
 
 #define MAX 10  // Define maximum size of the stack
 
-int stack_arr[MAX];  // Array to store stack elements
+int stack[MAX];  // Array to store stack elements
 int top = -1;  // Initialize top to -1 (indicating stack is empty)
 
 // Function prototypes
@@ -69,7 +69,7 @@ void push(int item)
         return;
     }
     top = top + 1;  // Increment top
-    stack_arr[top] = item;  // Add item to the stack
+    stack[top] = item;  // Add item to the stack
 }
 
 // Function to pop an element from the stack
@@ -81,7 +81,7 @@ int pop()
         printf("\nStack Underflow\n");
         exit(1);
     }
-    item = stack_arr[top];  // Get the top item
+    item = stack[top];  // Get the top item
     top = top - 1;  // Decrease top
     return item;  // Return popped item
 }
@@ -94,7 +94,7 @@ int peek()
         printf("\nStack Underflow\n");
         exit(1);
     }
-    return stack_arr[top];  // Return top item
+    return stack[top];  // Return top item
 }
 
 // Function to check if stack is empty
@@ -126,5 +126,5 @@ void display()
     }
     printf("\nStack elements:\n");
     for(i = top; i >= 0; i--)  // Print elements from top to bottom
-        printf("%d\n", stack_arr[i]);
+        printf("%d\n", stack[i]);
 }
