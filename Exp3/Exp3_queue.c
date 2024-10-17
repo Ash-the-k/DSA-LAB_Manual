@@ -1,12 +1,12 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #define MAX 5  // Maximum size of the queue
 
 // Function prototypes
 void initialize();  // Function to initialize the queue
-void insert();      // Function to enqueue (insert) an element
-void delete();      // Function to dequeue (remove) an element
+void enqueue();      // Function to enqueue (insert) an element
+void dequeue();      // Function to dequeue (remove) an element
 int top();          // Function to return the front element
 void display();     // Function to display all elements in the queue
 
@@ -21,8 +21,8 @@ int main()
     {
         // Display menu options
         printf("\nMain Menu\n");
-        printf("1. Insert an element\n");
-        printf("2. Delete an element\n");
+        printf("1. Enqueue an element\n");
+        printf("2. Dequeue an element\n");
         printf("3. Display the front element\n");
         printf("4. Display the queue\n");
         printf("5. Exit\n");
@@ -33,10 +33,10 @@ int main()
         switch(choice)
         {
             case 1:
-                insert();  // Enqueue operation
+                enqueue();  // Enqueue operation
                 break;
             case 2:
-                delete();  // Dequeue operation
+                dequeue();  // Dequeue operation
                 break;
             case 3:
                 printf("\nFront element is: %d\n", top());  // Display front element
@@ -62,8 +62,8 @@ void initialize()
     printf("\nQueue initialized\n");
 }
 
-// Function to insert an element into the queue (enqueue)
-void insert()
+// Function to enqueue an element into the queue
+void enqueue()
 {
     int item;
     if (rear == MAX - 1)
@@ -84,11 +84,11 @@ void insert()
         rear = rear + 1;
     }
     queue[rear] = item;
-    printf("\nValue inserted\n");
+    printf("\nValue enqueued\n");
 }
 
-// Function to delete an element from the queue (dequeue)
-void delete()
+// Function to dequeue an element from the queue
+void dequeue()
 {
     int item;
     if (front == -1 || front > rear)
@@ -108,7 +108,7 @@ void delete()
         {
             front = front + 1;
         }
-        printf("\nValue deleted: %d\n", item);
+        printf("\nValue dequeued: %d\n", item);
     }
 }
 
