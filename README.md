@@ -45,3 +45,19 @@
     * **display()** : Displays all elements currently in the queue.
 
 
+<br> 
+
+## [Experiment 6 : Circular Queue Operations Using Arrays](https://docs.google.com/document/d/1CtYBLETaFy4bOmisymYtRDy1MYHbIAe9pf75zM4ixT4/edit?usp=sharing)
+**Code:** 
+* [Exp3_queue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp6/Exp6_queue.c)
+
+    **Problem Statement :**
+    ***Design, develop, and implement a menu-driven program in C for the following operations on a Circular Queue using arrays with a maximum size (MAX):***
+
+    * **Insert** an element onto the Circular Queue.
+    * **Delete** an element from the Circular Queue.
+    * Demonstrate **overflow** and **underflow** situations on the Circular Queue.
+    * **Display** the status of the Circular Queue.
+    * **Exit** the program.
+
+
