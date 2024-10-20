@@ -35,7 +35,23 @@
 
 ## [Experiment 3 : Implementing Queue Operations](https://docs.google.com/document/d/1-CTO5Aj0JkhocFczA5S_haIPYggQZ7Spe3kfkI6ikhU/edit?usp=sharing)
 **Code:** 
-* [Exp3_queue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp3/Exp3_queue.c)
+* [Exp3_queueArray.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp3/Exp3_queue.c)
+
+    **Problem Statement :**
+    ***Design and develop a program to perform the following operations on a Queue data structure :***
+
+    * **enqueue()** : Adds an element to the end (rear) of the queue.
+    * **dequeue()** : Removes an element from the front of the queue.
+    * **top()** : Returns the first element in the queue without removing it.
+    * **initialize()** : Creates an empty queue.
+    * **display()** : Displays all elements currently in the queue.
+
+
+<br>
+
+## [Experiment 4 : Queue Operations Using Dynamic Memory Allocation](https://docs.google.com/document/d/1krC53aTJUjQhCRQFJBgBmVnKcZDr5MnXCifKCrLxJDk/edit?usp=sharing)
+**Code:** 
+* [Exp4_queueDynamic.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp4/Exp4_qdy.c)
 
     **Problem Statement :**
     ***Design and develop a program to perform the following operations on a Queue data structure :***
@@ -51,23 +67,21 @@
 
 ## [Experiment 5 : Priority Queue Operations Using Arrays](https://docs.google.com/document/d/1leOBSAmnOgKlvUzuXXmd64DLST7bIgAzrrW8rKtoNzg/edit?usp=sharing)
 **Code:** 
-* [Exp3_queue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp5/Exp5_pq.c) [ **Note**: I've drasatically changed the code, so use this version at your own risk ]
+* [Exp3_Pqueue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp5/Exp5_pq.c) [ **Note**: I've drasatically changed the code, so use this version at your own risk ]
 
     **Problem Statement :**
-    ***Design, develop, and implement a menu-driven program in C for the following operations on a Priority Queue using arrays with a maximum size (MAX):***
+    ***Design and develop a program to perform insert, delete, and display operations on a queue using dynamic memory allocation functions such as malloc(), calloc(), and free(). Implement the queue using a linked list structure, where memory for nodes is allocated at runtime. The program should provide a menu-driven interface that allows the user to perform the following operations:***
 
-
-    * **Insert** an element onto the Priority Queue.
-    * **Delete** an element from the Priority Queue.
-    * **Peek** at the elements in the Priority Queue.
-    * **Exit** the program.
+    * **Insert** an element onto the Queue.
+    * **Delete** an element from the Queue.
+    * **Display** the elements of the queue.
 
     
 <br> 
 
 ## [Experiment 6 : Circular Queue Operations Using Arrays](https://docs.google.com/document/d/1CtYBLETaFy4bOmisymYtRDy1MYHbIAe9pf75zM4ixT4/edit?usp=sharing)
 **Code:** 
-* [Exp3_queue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp6/Exp6_cq.c)
+* [Exp3_Cqueue.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp6/Exp6_cq.c)
 
     **Problem Statement :**
     ***Design, develop, and implement a menu-driven program in C for the following operations on a Circular Queue using arrays with a maximum size (MAX):***
