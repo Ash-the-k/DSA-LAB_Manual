@@ -50,11 +50,13 @@ int main(){
         case 4:
             display();
             break;
+        case 5:
+            exit(0);
+            break;
         
         default:    printf("Enter correct Choice:\n");
             break;
         }
-        if(ch == 5) break;
     }   
 }
 
@@ -117,8 +119,9 @@ void dq()
             for(;i<rear;i++){
                 pq[i]=pq[i+1];
             }
-            printf("\n%d deleted\n",item);
+            pq[rear] = -99;
             rear--;
+            printf("\n%d deleted\n",item);
             if(rear == -1)  front = -1;
             return;
         }
