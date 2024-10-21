@@ -43,7 +43,7 @@
     * **enqueue()** : Adds an element to the end (rear) of the queue.
     * **dequeue()** : Removes an element from the front of the queue.
     * **top()** : Returns the first element in the queue without removing it.
-    * **initialize()** : Creates an empty queue.
+    * ***initialize()*** : Creates an empty queue.
     * **display()** : Displays all elements currently in the queue.
 
 
@@ -59,7 +59,7 @@
     * **enqueue()** : Adds an element to the end (rear) of the queue.
     * **dequeue()** : Removes an element from the front of the queue.
     * **top()** : Returns the first element in the queue without removing it.
-    * **initialize()** : Creates an empty queue.
+    * ***initialize()*** : Creates an empty queue.
     * **display()** : Displays all elements currently in the queue.
 
 
