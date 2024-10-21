@@ -54,13 +54,11 @@
 * [Exp4_queueDynamic.c](https://github.com/Ash4-k/DSA-LAB/blob/main/Exp4/Exp4_qdy.c)
 
     **Problem Statement :**
-    ***Design and develop a program to perform the following operations on a Queue data structure :***
+    ***Design and develop a program to perform insert, delete, and display operations on a queue using dynamic memory allocation functions such as malloc(), calloc(), and free(). Implement the queue using a linked list structure, where memory for nodes is allocated at runtime. The program should provide a menu-driven interface that allows the user to perform the following operations:***
+    * **Insert** an element into the queue.
+    * **Delete** an element from the queue.
+    * **Display** the elements of the queue.
 
-    * **enqueue()** : Adds an element to the end (rear) of the queue.
-    * **dequeue()** : Removes an element from the front of the queue.
-    * **top()** : Returns the first element in the queue without removing it.
-    * ***initialize()*** : Creates an empty queue.
-    * **display()** : Displays all elements currently in the queue.
 
 
 <br> 
