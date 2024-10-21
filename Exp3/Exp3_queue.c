@@ -99,7 +99,7 @@ void dequeue()
     else
     {
         item = queue[front];
-        if (front == rear)
+        if (front == rear)  //don't forget
         {
             front = -1;
             rear = -1;

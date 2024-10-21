@@ -72,7 +72,7 @@ void eq()
         return;
     }
     int item;
-    printf("\nEnter item to eq: \n");
+    printf("\nEnter item to eq: \n");   //don't forget
     scanf("%d",&item);
     ptr->data = item;
     ptr->next = NULL;

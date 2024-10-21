@@ -95,7 +95,7 @@ void check(int n)
                 pq[j+1]=pq[j];
             }
             pq[i] = n;
-            rear++;
+            rear++; //don't forget
             return;
         }
     }
